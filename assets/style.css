@@ -99,54 +99,6 @@ body{
 
 
 /* Responsividade para telas de 375px */
-@media (max-width: 375px) {
-    header {
-        height: auto; /* Altura automática */
-        position: static; /* Remove posição fixa */
-        padding: 10px 0; /* Adiciona algum preenchimento */
-    }
-    .menu {
-        flex-direction: column; /* Muda para uma coluna */
-        align-items: center; /* Centraliza os itens */
-        margin-top: 20px; /* Aumenta a margem superior */
-    }
-
-    .menu button {
-        width: 80%; /* Largura um pouco menor */
-        margin-bottom: 10px; /* Espaçamento entre os botões */
-    }
-    .linha__um,
-    .linha__dois {
-        flex-direction: column; /* Altera para coluna */
-        margin: 0 20px; /* Adiciona margem nas laterais */
-    }
-
-    .titulo {
-        margin-top: 30px; /* Ajusta a margem superior */
-    }
-
-    .menu .vai__sumir__quando__pc{
-        display: block;
-    }
-    .menu .vai__sumir__quando__cell{
-        display: none;
-    }
-    .caixa__container_um,
-    .caixa__container_dois {
-        width: 90%; /* Largura um pouco menor */
-        height: 500px;
-        margin: 100px auto; /* Centraliza e adiciona margem */
-        padding: 20px; /* Adiciona preenchimento interno */
-        display: block; /* Forçar bloco para garantir a largura total */
-    }
-    .caixa__container__um{
-        margin: 400px auto;
-    }
-    #caixatotal {
-        margin: 0 20px; /* Reduz a margem nas laterais */
-    }
-}
-
 @media (max-width: 725px) {
     header {
         height: auto; /* Altura automática */
@@ -194,4 +146,6 @@ body{
         margin: 0 20px; /* Reduz a margem nas laterais */
     }
 }
+
+
 
